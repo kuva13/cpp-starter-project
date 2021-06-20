@@ -1,0 +1,8 @@
+COMPILER=g++
+FLAGS=-Wall
+
+all:
+	$(COMPILER) $(FLAGS) snake.cpp -o snake
+
+clean:
+	rm snake
