@@ -1,3 +1,7 @@
 #pragma once
 
-extern int not_random();
+extern int Delay();
+
+extern int InitGame();
+
+extern int AddFront();

@@ -1212,7 +1212,7 @@ namespace detail {
         // https://github.com/catchorg/Catch2/issues/565
         template <typename L>
         Expression_lhs<const DOCTEST_REF_WRAP(L)> operator<<(const DOCTEST_REF_WRAP(L) operand) {
-            return Expression_lhs<const DOCTEST_REF_WRAP(L)>(operand, m_at);
+          return Expression_lhs<const DOCTEST_REF_WRAP(L)>(operand, m_at);
         }
     };
 
